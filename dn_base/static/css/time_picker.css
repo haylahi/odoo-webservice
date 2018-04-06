@@ -1,0 +1,80 @@
+.ui-timepicker-table
+{
+    background-color:lightgray
+}
+.ui-timepicker-table a
+{
+    padding:5px;
+}
+.ui-timepicker-title
+{
+    padding:5px;
+}
+.ui-timepicker-table th.periods
+{
+    display:none;
+}
+.ui-timepicker-table td
+{
+    padding-bottom:5px;
+    cursor:pointer;
+}
+.dn_time_picker.error
+{
+    border-color:red;
+}
+.dnerror
+{
+    border:1px solid red;
+}
+#appDrawerAppPanelBody>ul>li>a[data-menu-xmlid="dn_base.my_management"]
+{
+    display:none;
+}
+.o_form_view .o_form_sheet_bg > .o_form_sheet
+{
+    margin:10px auto;
+}
+.o_data_cell .o_checkbox input
+{
+    cursor:pointer;
+}
+
+.table
+{
+    width:99.3%
+}
+.o_web_client .navbar li > a
+{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.DocsButtonWrapper .btn, .DocsBtn{
+    min-width:120px;
+    margin:5px 2.5px;
+}
+
+.DocsButtonWrapper .btn:first-child, .DocsBtn.DocsBtnfirst{
+    margin-left:10px;
+}
+
+.o_form_view .oe_button_box + .oe_title, .o_form_view .oe_button_box + .oe_avatar + .oe_title
+{
+    width:100%;
+}
+
+ul.survey_kanban {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.o_field_one2many .o_kanban_view.o_kanban_ungrouped .o_kanban_record {
+    width: 250px;
+}
+
+.acceptancebuttonsactive{
+background:#7c7bad;
+color: white;
+}

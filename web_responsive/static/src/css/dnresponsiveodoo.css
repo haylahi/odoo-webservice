@@ -1,0 +1,200 @@
+
+
+.o_sub_menu_footer
+{
+	display:none;	
+}
+
+.o_main
+{
+	background-color:white;
+}
+
+.o_control_panel .breadcrumb > li {
+   white-space: normal;
+   max-width: 100%;
+}
+
+
+.nav.navbar-nav.navbar-right.navbar-systray-item.oe_systray>li:not(.o_debug_manager) {
+   display:none !important;
+}
+
+.oe_user_menu_placeholder ul.dropdown-menu>li:not(:nth-child(4)):not(:nth-child(6))
+{
+		display:none;
+}
+
+ul.dropdown-menu.o_debug_dropdown>li>a{
+	display:none;
+}
+ul.dropdown-menu.o_debug_dropdown>li>a[data-action="edit"]
+{
+	display:block;
+}
+
+.o_form_view.oe_form_configuration .o_group .o_form_label
+{
+	white-space:inherit;
+}
+.oe_module_desc > button
+{
+	position:static;
+}
+
+.o_web_client > .o_main > .o_main_content
+{
+	width:100%;
+}
+
+
+/* ANEES RESPONSIVE CHANGES*/
+header > .main-nav > .container-fluid > .navbar-header
+{
+    margin: 0;
+    padding: 0;
+    display:inherit;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus
+{
+	background-color:#5588ee;
+	color: #ffffff;	
+}
+input[type="text"]{
+		font-size:13px;
+		font-weight:400;
+		max-width:100% !important;
+		height:28px;
+		line-height:28px;
+		box-sizing: border-box;
+		padding:0 8px;	
+}
+
+/*.o_control_panel .o_cp_left {
+width: 60%;
+}*/
+
+.o_control_panel .o_form_buttons_view > button:first-child
+{
+  margin-bottom: 5px;
+
+}
+.o_form_view > header > button
+{
+	margin:6px;
+}
+
+.o_form_sheet.oe_title >h2:third-child 
+{
+	font-size:40px;
+}
+
+.o_control_panel .breadcrumb {
+    width: 100%;
+    margin-bottom: 3px;
+}
+.o_control_panel .o_cp_searchview {
+    width: 100%;
+    min-height: 30px;
+}
+
+.o_form_view .o_group.o_inner_group > tbody > tr > td span.o_form_field, .o_form_view .o_group.o_inner_group > tbody > tr > td .o_form_field_boolean.o_form_field, .o_form_view .o_group.o_inner_group > tbody > tr > td .oe_avatar.o_form_field, .o_form_view .o_group.o_inner_group > tbody > tr > td .o_form_uri.o_form_field {
+    width: 100%;
+}
+.o_form_view.o_form_editable .oe_title {
+    max-width: 95%;
+}
+.o_form_view.o_form_editable .o_address_format div.o_address_state {
+    width: 100%;
+}
+
+.o_form_view.o_form_editable .o_form_field_many2manytags > .o_form_field > .o_form_input_dropdown > .o_form_input {
+    border:1px solid #cccccc !important;
+	padding-left:7px;padding-right:7px; 
+}
+
+.o_form_field_many2manytags.oe_inline.o_form_field {
+    display: block;
+}
+.o_form_view .o_group.o_inner_group {    
+    width: 100%;
+}
+
+.embed-responsive .embed-responsive-item, .embed-responsive iframe, .embed-responsive embed, .embed-responsive object, .embed-responsive video {
+    padding: 0;
+}
+
+.dropdown-menu.oe_secondary_submenu.dropdown-scrollable
+{
+	max-height:500px;
+}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 767px) {
+.o_kanban_view.o_kanban_ungrouped {
+    padding: 3px;
+    margin: 7px;
+}
+div.oe_kanban_global_click.o_res_partner_kanban.o_kanban_record 
+{
+	margin:3px;
+}
+
+.o_kanban_view.o_kanban_grouped.ui-sortable{
+	display:flex;
+	flex-direction: column;
+	}
+.o_kanban_view .o_kanban_group:not(.o_column_folded) {
+    width: auto !important;
+
+}
+.o_kanban_view.o_kanban_grouped .o_kanban_record{
+	width:auto !important; 
+	margin:0 10px 12px 10px;
+	
+}
+.o_kanban_view.o_kanban_grouped{ padding:0;}
+	
+.o_form_view .oe_inline{
+    width: auto !important;
+	display: block !important;
+}
+
+.o_form_view.o_form_editable .o_address_format div.o_address_state {
+    width: auto !important;
+	display: block !important;
+	margin-right:0 !important;
+}
+}
+
+@media (max-width: 480px) {
+	.o_form_view .oe_chatter { padding: 16px 0px 48px; }
+	.o_mail_thread .o_thread_message { flex-direction: column; }
+	.o_mail_thread .o_thread_message .o_thread_message_sidebar { text-align: left; }
+	.o_mail_thread .o_thread_message .o_thread_message_core.o_mail_note { padding:0px; }
+	ul.o_mail_thread_message_tracking { padding: 0 0 0 22px; }
+	ul.o_mail_thread_message_tracking li{ font-size:12px; }
+	.o_form_view.o_form_editable .oe_title {max-width: 100%;}
+	.o_form_view .o_group .o_form_field.o_text_overflow{max-width:100% !important;}
+	.o_form_view .o_group .o_form_field.o_text_overflow{max-width:100% !important;}
+	.o_control_panel .o_cp_left, .o_control_panel .o_cp_right{ max-width:100% !important; display:flex !important; }
+	
+	.o_form_view .o_form_field > .o_form_input_dropdown {
+        max-width: 100% !important;
+	}
+}
+
+
+.oe_row
+{
+	width:100%;
+}
+
+@media (max-width: 767px) {
+    .table-responsive > .table > tbody > tr > td
+    {
+        white-space:inherit;
+    }
+}

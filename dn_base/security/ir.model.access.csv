@@ -1,0 +1,7 @@
+"id","name","model_id/id","group_id/id","perm_read","perm_write","perm_create","perm_unlink"
+
+"app.admin.users","App Admin Users","model_base_res_users","dn_app_manager",1,1,1,1
+"app.admin.partners","App Admin Partners","model_base_res_partner","dn_app_manager",1,1,1,1
+"app.admin.groups","App Admin Groups","model_base_res_groups","dn_app_manager",1,1,1,1
+"app.admin.access","App Admin Access","model_ir_model_accesss","dn_app_manager",1,1,1,1
+"app.admin.relation","App Admin Relation","model_ir_model_relation","dn_app_manager",1,1,1,1

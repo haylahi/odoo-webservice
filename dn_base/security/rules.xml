@@ -1,0 +1,35 @@
+<odoo>
+    <data>
+
+        <!--<record id="access_base_user_profile" model="ir.rule">-->
+            <!--<field name="name">Limiting access to user own profile</field>-->
+            <!--<field name="model_id" ref="base.model_res_users"/>-->
+            <!--<field name="domain_force">[('id','=',user.id)]</field>-->
+            <!--<field eval="0" name="perm_read"/>-->
+            <!--<field eval="0" name="perm_create"/>-->
+            <!--<field eval="1" name="perm_write"/>-->
+            <!--<field eval="0" name="perm_unlink"/>-->
+        <!--</record>-->
+
+          <record id="mp_users_access3" model="ir.rule">
+            <field name="name">Restrict access to super admin</field>
+            <field name="model_id" ref="base.model_res_users"/>
+            <field name="domain_force">[('id','!=', 1)]</field>
+            <field eval="0" name="perm_unlink"/>
+            <field eval="0" name="perm_write"/>
+            <field eval="1" name="perm_read"/>
+            <field eval="0" name="perm_create"/>
+        </record>
+
+         <record id="mp_users_access4" model="ir.rule">
+            <field name="name">Restrict access to super partner</field>
+            <field name="model_id" ref="base.model_res_partner"/>
+            <field name="domain_force">[('id','!=', 3)]</field>
+            <field eval="0" name="perm_unlink"/>
+            <field eval="0" name="perm_write"/>
+            <field eval="1" name="perm_read"/>
+            <field eval="0" name="perm_create"/>
+        </record>
+
+    </data>
+</odoo>

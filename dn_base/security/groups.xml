@@ -1,0 +1,12 @@
+<odoo>
+    <data>
+        <record model="res.groups" id="dn_app_manager">
+            <field name="name">App Admin</field>
+        </record>
+
+        <record model="res.groups" id="dn_site_manager">
+            <field name="name">Site Admin</field>
+            <field name="implied_ids" eval="[(4, ref('dn_app_manager'))"/>
+        </record>
+    </data>
+</odoo>

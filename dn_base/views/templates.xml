@@ -1,0 +1,21 @@
+<odoo>
+    <data>
+        <template id="assets_backend" inherit_id="web.assets_backend" name="Web Custom Assets" >
+            <xpath expr=".">
+                <script type="application/javascript" src="/dn_base/static/js/web.js"/>
+            </xpath>
+        </template>
+        <template id="login_layout" inherit_id="web.login_layout" name="Login Inherit">
+            <xpath expr=".">
+                <div class="dn_footer">Copy rights</div>
+                <link rel="stylesheet" href="/dn_base/static/css/login.css" />
+                <script src="/dn_base/static/js/login.js"></script>
+            </xpath>
+        </template>
+        <template id="assets_frontend" inherit_id="web.assets_frontend" name="Front End Inherit">
+            <xpath expr=".">
+                <link rel="stylesheet" href="/dn_base/static/css/frontend.css" />
+            </xpath>
+        </template>
+    </data>
+</odoo>

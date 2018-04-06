@@ -1,0 +1,13 @@
+div#wrapwrap footer
+{
+    display:none;
+}
+/*#wrapwrap .container
+{
+    display:none;
+}*/
+#top_menu>li:not(.dropdown)
+{
+    display:none;
+}
+

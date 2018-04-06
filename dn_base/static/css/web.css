@@ -1,0 +1,93 @@
+.o_form_view .oe_inline.o_field_one2many
+{
+    width: 100% !important;
+}
+
+.o_kanban_record
+{
+	border:2px solid #cfcfcf;
+}
+.badge.pull-right
+{
+    display:none;
+}
+
+  .o_kanban_view .o_kanban_record .o_kanban_tags[name="user_ids"]
+  {
+    margin-top:10px;
+  }
+  div[name="user_ids"] img
+  {
+    height:20px;
+    width:20px;
+    float:left;
+    margin-left: 5px;
+  }
+
+
+#signature_editor
+{
+    padding:0px;
+    border:1px solid #cccccc;
+    margin:3px 10px;
+    height: 200px;
+    width: 370px;
+}
+
+.o_input_dropdown
+{
+    min-height:25px;
+}
+.youtubeVideoModal
+{
+z-index : 99999
+}
+.youtubeVideoModal .btnclosemodel
+{
+    background-image: url('/dn_base/static/img/close.png') !important;
+    display: block;
+    width: 17px;
+    height: 16px;
+    float: right;
+    background-size:  100%;
+    cursor:pointer;
+}
+.youtubeVideoModal .modal-header{
+    padding: 6px 5px 20px 0;
+}
+
+.o_kanban_record .o_kanban_tags span.o_tag
+{
+    font-size:13px;
+}
+
+.o_form_view .o_form_statusbar > .o_statusbar_buttons > .btn
+{
+    padding:6px 5px;
+}
+.o_form_view .o_form_statusbar
+{
+    padding:3px;
+    border-bottom:none;
+    background-color: transparent;
+}
+.btn
+{
+    min-width: 50px;
+}
+.oe_kanban_bottom_right a
+{
+    float:right;
+}
+.modal-body .user_form .o_form_statusbar
+{
+    display:none;
+}
+.user_form > .o_form_sheet_bg > .o_form_sheet
+{
+    margin:10px auto;
+}
+.o_form_view .o_form_sheet_bg
+{
+    padding-top:10px;
+}
